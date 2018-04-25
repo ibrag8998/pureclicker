@@ -1,0 +1,41 @@
+#value-res-gold, #value-res-gems, #value-hp-bar, #mob, #btn-triple-damage, #btn-auto-click, #btn-midas {
+    margin: 2%;
+}
+
+.screen {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#value-res-gold {
+    width: 44%;
+    text-align: left;
+}
+
+#value-res-gems {
+    width: 44%;;
+    text-align: right;
+}
+
+#value-hp-bar {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+#mob {
+    width: 96%;
+}
+
+#btn-triple-damage {
+    align-content: left;
+}
+
+#btn-auto-click {
+    align-content: center;
+}
+
+#btn-midas {
+    align-content: right;
+}

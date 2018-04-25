@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tap-tap</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="screen">
+        <div class="res">
+            <input id="value-res-gold" type="text" disabled value="0" name="value-res-gold">
+            <input id="value-res-gems" type="text" disabled value="0" name="value-res-gems">
+        </div>
+        <div class="mobs">
+            <div class="hp-bar">
+                <input id="value-hp-bar" type="text" disabled value="10" name="value-hp-bar">
+            </div>
+            <div class="mob">
+                <button class="btn-mob" onclick="tap()"><img id="mob" src="imgs/mob1.jpeg"></button>
+            </div>
+        </div>
+        <div class="skills">
+            <button class="btn-triple-damage" onclick="crit()"><img src="imgs/triple-damage.png" width="72" height="72"></button>
+            <button class="btn-auto-click" onclick="auto()"><img src="imgs/auto-click.png" width="72" height="72"></button>
+            <button class="btn-midas" onclick="midas()"><img src="imgs/midas.png" width="72" height="72"></button>
+        </div>
+        <div class="shop">
+            <img src="imgs/tap_damage.png" width="54" height="54" align="left" hspace="5" vspace="5">
+            <p>Increase your tap damage</p>
+            <p>Cost: <strong id="cost-tap-dmg">100</strong> gold</p>
+            <button class="buy-tap-dmg" onclick="buy_tap_dmg()">Buy</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
